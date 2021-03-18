@@ -1,0 +1,15 @@
+[package]
+name = "check-pubkey"
+version = "0.1.0"
+authors = ["Tomas Tauber <2410580+tomtau@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tmkms-light = {git = "https://github.com/crypto-com/tmkms-light.git", rev = "v0.1.2"}
+tendermint = { version = "0.18" }
+tendermint-proto = "0.18"
+tendermint-p2p = { version = "0.18" }
+ed25519-dalek = "1"
+prost = "0.7"
